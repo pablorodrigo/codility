@@ -1,10 +1,9 @@
 # Codility
-Lessons developed in https://codility.com/programmers/
+>Lessons developed in https://codility.com/programmers/
 
 # Lessons
--BinaryGrap
+- BinaryGrap
 
 # Business issues
--Word counter
--Number Position
-
+- Word counter
+- Number Position
