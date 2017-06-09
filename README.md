@@ -3,6 +3,7 @@
 
 # Lessons
 - BinaryGrap
+- OddOccurrencesInArray
 
 # Business issues
 - Word counter
