@@ -1,7 +1,4 @@
-import br.com.codility.lessons.BinaryGrap;
-import br.com.codility.lessons.OddOccurrencesInArray;
-import br.com.codility.lessons.QntPalavras;
-import br.com.codility.lessons.RetornarPosicaoNumeros;
+import br.com.codility.lessons.*;
 
 public class Main {
 
@@ -33,6 +30,24 @@ public class Main {
         int number_unpaired[] = {9, 3, 9, 3, 9, 7, 9};
         System.out.println(OddOccurrencesInArray.solution(number_unpaired));
         */
+
+        /**
+         * maximunTime
+         */
+        // 20:44
+        // HH:MM
+        //System.out.println(MaximunHours.maximunHour(2,4,0,0));
+        //System.out.println(MaximunHours.maximunHour(1,8,3,2));
+        //System.out.println(MaximunHours.maximunHour(3,0,7,0));
+        //System.out.println(MaximunHours.maximunHour(9,1,9,7));
+        //System.out.println(MaximunHours.maximunHour(1,3,5,2));
+
+        /**
+         * distancia quadrada
+         */
+
+        System.out.println(MaxDistance.distancia(1, 1, 2, 3));
+        //System.out.println(MaxDistance.distancia(2, 4, 2, 4));
 
     }
 
