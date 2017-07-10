@@ -8,3 +8,5 @@
 # Business issues
 - Word counter
 - Number Position
+- Max Distance
+- Max Time
