@@ -57,6 +57,10 @@ public class Main {
         //int[] A = {3,8,9,7,6};
         //System.out.println(Arrays.toString(CyclicRotation.solution(A, 3)));
 
+        /**
+         * FrogImp
+         */
+        System.out.println(FrogJmp.solution(10,85,30));
     }
 
 

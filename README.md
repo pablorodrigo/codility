@@ -5,6 +5,7 @@
 - BinaryGrap
 - OddOccurrencesInArray
 - CyclicRotation
+- FrogJmp
 
 # Business issues
 - Word counter
