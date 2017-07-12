@@ -4,6 +4,7 @@
 # Lessons
 - BinaryGrap
 - OddOccurrencesInArray
+- CyclicRotation
 
 # Business issues
 - Word counter

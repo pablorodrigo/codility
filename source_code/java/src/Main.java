@@ -1,5 +1,7 @@
 import br.com.codility.lessons.*;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -46,8 +48,14 @@ public class Main {
          * distancia quadrada
          */
 
-        System.out.println(MaxDistance.distancia(1, 1, 2, 3));
+        //System.out.println(MaxDistance.distancia(1, 1, 2, 3));
         //System.out.println(MaxDistance.distancia(2, 4, 2, 4));
+
+        /**
+         * CyclicRotation
+         */
+        //int[] A = {3,8,9,7,6};
+        //System.out.println(Arrays.toString(CyclicRotation.solution(A, 3)));
 
     }
 
