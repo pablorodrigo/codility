@@ -12,3 +12,5 @@
 - Number Position
 - Max Distance
 - Max Time
+- LinkedList
+- BitOneCount
