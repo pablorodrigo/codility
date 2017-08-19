@@ -60,7 +60,22 @@ public class Main {
         /**
          * FrogImp
          */
-        System.out.println(FrogJmp.solution(10,85,30));
+        //System.out.println(FrogJmp.solution(10,85,30));
+
+        /**
+         * linkedList
+         */
+        //int[] A = {3,2,4,6,8,5,8,-1,4};
+        //System.out.println(LinkedList.solution(A));
+
+        /**
+         * BitOneCount
+         */
+       //int A = 50;
+        //int B = 124;
+        //System.out.println(BitOneCount.solution(A, B));
+
+
     }
 
 
