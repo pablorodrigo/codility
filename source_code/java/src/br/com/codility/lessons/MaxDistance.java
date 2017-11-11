@@ -14,7 +14,6 @@ public class MaxDistance {
             return 0;
         }
 
-
         double distancia = 0;
 
         double x1 = A;
