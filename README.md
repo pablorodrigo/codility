@@ -6,11 +6,13 @@
 - OddOccurrencesInArray
 - CyclicRotation
 - FrogJmp
+- CardGame
 
 # Business issues
-- Word counter
+- Word Counter
 - Number Position
 - Max Distance
 - Max Time
 - LinkedList
 - BitOneCount
+- FormattingPhoneNumber
