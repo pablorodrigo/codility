@@ -1,5 +1,12 @@
-import br.com.codility.lessons.FormattingPhoneNumber;
-import br.com.codility.lessons.MaxDistance;
+import br.com.codility.lessons.CardsWar;
+import br.com.codility.lessons.PlayList;
+import br.com.codility.lessons.WordCount;
+import br.com.codility.lessons.WordMachine;
+import br.com.others.AmazonFresh;
+import br.com.others.GCD;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -93,13 +100,165 @@ public class Main {
         /**
          * FormattingPhoneNumber
          */
-        System.out.println(FormattingPhoneNumber.solution("00-44  48 5555 8361"));
-        System.out.println(FormattingPhoneNumber.solution("0 - 22 1985--324"));
-        System.out.println(FormattingPhoneNumber.solution("555372654"));
-        System.out.println(FormattingPhoneNumber.solution("23567890987654"));
-        System.out.println(FormattingPhoneNumber.solution("00-22 56 8888 9453"));
+//        System.out.println(FormattingPhoneNumber.solution("00-44  48 5555 8361"));
+//        System.out.println(FormattingPhoneNumber.solution("0 - 22 1985--324"));
+//        System.out.println(FormattingPhoneNumber.solution("555372654"));
+//        System.out.println(FormattingPhoneNumber.solution("23567890987654"));
+//        System.out.println(FormattingPhoneNumber.solution("00-22 56 8888 9453"));
+
+
+        /**
+         * CardsWar
+         */
+
+//        System.out.println(CardsWar.Solution("A586QK","JJ653K"));
+//        System.out.println(CardsWar.Solution("23A84Q","K2Q25J"));
+//        System.out.println(CardsWar.Solution("'AKQJT23456789'","'59K7JQT3246A8'"));
+
+        /**
+         * PlayList
+         */
+
+       /* System.out.println(PlayList.solution("my.song.mp3 11b\n" +
+                "greatSong.flac 1000b\n" +
+                "not3.txt 5b\n" +
+                "video.mp4 200b\n" +
+                "game.exe 100b\n" +
+                "mov!e.mkv 10000b"));*/
+
+        /**
+         * wordmachine
+         */
+
+        /*System.out.println(WordMachine.solution("13 DUP 4 POP 5 DUP + DUP + -"));
+
+        int[][] sample1 =
+                {
+                        {1, 1, 0, 0, 0},
+                        {1, 1, 0, 0, 0},
+                        {1, 1, 1, 1, 1},
+                        {1, 1, 1, 0, 1},
+                        {1, 1, 1, 1, 1}
+                };
+
+        int[][] sample2 =
+                {
+                        {1, 1, 1, 1, 1, 1, 0, 0},
+                        {1, 1, 1, 1, 1, 1, 1, 0},
+                        {1, 1, 0, 1, 0, 1, 1, 0},
+                        {1, 1, 1, 1, 0, 1, 1, 0},
+                        {1, 1, 1, 1, 1, 1, 1, 0},
+                        {1, 1, 1, 1, 1, 1, 1, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0}
+                };
+
+        int[][] sample3 =
+                {
+                        {0, 0, 0, 1, 1, 1, 1, 1, 1, 0},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+                        {1, 0, 0, 1, 0, 0, 0, 0, 1, 0},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 0, 1, 0, 0, 1, 1},
+                        {1, 1, 1, 1, 0, 1, 0, 0, 1, 1},
+                        {1, 1, 1, 1, 0, 1, 0, 0, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 0, 0, 1, 0, 0, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                };
+
+        int[][] sample4 =
+                {
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1},
+                        {0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1},
+                        {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                };
+
+        int[][] sample5 =
+                {
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1},
+                        {0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1},
+                        {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                };
+
+        int[][] sample6 =
+                {
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1},
+                        {1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1},
+                        {1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                };
+
+
+*/
+        /**
+         * GCD
+         */
+        //int[] array = {2, 4, 6, 8, 10};
+        //int[] array = {2, 4, 6, 5, 6, 7, 10, 12, 14};
+        //System.out.println(GCD.generalizedGCD(5, array));
+        //System.out.println(GCD.generalizedGCDPablo(5, array));
+
+        /**
+         * Amazon Fresh
+         */
+        List<Integer> arry1 = new ArrayList<>();
+        arry1.add(1);
+        arry1.add(2);
+
+        List<Integer> arry2 = new ArrayList<>();
+        arry2.add(3);
+        arry2.add(4);
+
+        List<Integer> arry3 = new ArrayList<>();
+        arry3.add(1);
+        arry3.add(-1);
+
+        List<List<Integer>> list = new ArrayList<>();
+        list.add(arry1);
+        list.add(arry2);
+        list.add(arry3);
+
+        System.out.println(AmazonFresh.solution(3, list, 2));
 
 /*
+
+
 
         int[] numeros = {1, 2, 3, 4};
         int[] combinacao = new int[4];
