@@ -1,12 +1,6 @@
-import br.com.codility.lessons.CardsWar;
-import br.com.codility.lessons.PlayList;
-import br.com.codility.lessons.WordCount;
-import br.com.codility.lessons.WordMachine;
-import br.com.others.AmazonFresh;
-import br.com.others.GCD;
+package br.com.codility.lessons.java;
 
-import java.util.ArrayList;
-import java.util.List;
+import br.com.codility.lessons.java.PermMissingElem;
 
 public class Main {
 
@@ -17,6 +11,22 @@ public class Main {
          */
         //int intervalo = BinaryGrap.intervalorNumero(1040);
         //System.out.println("intervalor" + intervalo);
+
+        /**
+         * PermMissingElem
+         */
+
+        //int[] A = {2,3,1,5};
+        //System.out.println(PermMissingElem.solution(A));
+
+        /**
+         * PermCheck
+         */
+
+        /*int[] A = {4,1,3,2};
+        int[] B = {4,1,3};
+        System.out.println(PermCheck.solution(A));
+        System.out.println(PermCheck.solution(B));*/
 
         /**
          * QntPalavras
@@ -237,7 +247,7 @@ public class Main {
         /**
          * Amazon Fresh
          */
-        List<Integer> arry1 = new ArrayList<>();
+        /*List<Integer> arry1 = new ArrayList<>();
         arry1.add(1);
         arry1.add(2);
 
@@ -254,7 +264,7 @@ public class Main {
         list.add(arry2);
         list.add(arry3);
 
-        System.out.println(AmazonFresh.solution(3, list, 2));
+        System.out.println(AmazonFresh.solution(3, list, 2));*/
 
 /*
 

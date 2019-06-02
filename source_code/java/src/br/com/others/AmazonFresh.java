@@ -1,7 +1,5 @@
 package br.com.others;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 import java.util.List;
 
 public class AmazonFresh {
@@ -13,7 +11,6 @@ public class AmazonFresh {
 
         for (int i = 0; i < allLocations.size(); i++) {
 
-            for ()
 
         }
 
