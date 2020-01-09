@@ -1,7 +1,5 @@
 package br.com.codility.lessons.java;
 
-import br.com.codility.lessons.java.PermMissingElem;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -292,6 +290,22 @@ public class Main {
             }
         }
 */
+
+
+        /**
+         * SaddlePoint
+         */
+
+        int[][] sample1 =
+                {
+                        {0, 1, 9, 3},
+                        {7, 5, 8, 3},
+                        {9, 2, 9, 4},
+                        {4, 6, 7, 1}
+                };
+
+        System.out.println(SaddlePoint.solution(sample1));
+
     }
 
 
